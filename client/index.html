@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projectify</title>
+
+    <!-- Importing js and CSS files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Projectify</h1>
+
+    <!-- Posting a project idea -->
+    <div id="submission">
+        <h2>Post a cool project!</h2>
+        <label for="ptitle">Project Name:</label><br>
+        <input type="text" id="ptitle" name="ptitle" placeholder="Enter Project Title"><br><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="20" cols="50" placeholder="Enter a short description about the project!"></textarea>
+        <br><br>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="postSection">
+        <div id="post">
+        </div>
+    </div>
+
+    <script src="projectify.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    margin:0%;
+    padding:0%;
+}
+
+/* Title */
+h1 {
+    z-index:1;
+    position:fixed;
+    top:0%;
+    left:0%;
+    color:white;
+    text-align:center;
+    height:10vh;
+    line-height:10vh;
+    width:100vw;
+    margin:0%;
+    padding:0%;
+    background-color:crimson;
+}
+
+/* Submission side */
+#submission {
+    position:fixed;
+    top:10vh;
+    left:0%;
+    height:90vh;
+    width:20vw;
+    margin:0%;
+    padding:0% 2vw;
+    background-color: aliceblue;
+}
+
+/* Text inputs */
+#ptitle {
+    font-family: 'Titillium Web', sans-serif;
+    width:15vw;
+}
+
+#description  {
+    font-family: 'Titillium Web', sans-serif;
+    height:40vh;
+    width:19vw;
+    font-size:14px;  
+    resize:none;  
+}
+
+#submit {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#postSection {
+    position:relative;
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+}
+
+#post {
+    overflow-wrap:break-word;
+    position:absolute;
+    width: 72vw;
+    top:13vh;
+    left:24vw;
+    height: 87vh;
+    padding:0 2vw;
+    box-sizing:border-box; 
+}
+
+#postBox {
+    padding:1%;
+    border:1px solid crimson;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.19);
+}
