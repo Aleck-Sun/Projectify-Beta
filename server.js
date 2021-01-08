@@ -1,8 +1,6 @@
 //Starts a server
 const express = require('express');
 const app = express();
-const fetch = require('node-fetch');
-require('dotenv').config();
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
